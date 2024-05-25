@@ -1,0 +1,45 @@
+name: hackathon
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  loading_animation_widget: ^1.2.1
+  animated_text_kit: ^4.2.2
+  csv: ^6.0.0
+  material_color_utilities: 0.8.0
+  meta: 1.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+dependency_overrides:
+  material_color_utilities: 0.8.0
+  meta: 1.12.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Product
+      fonts:
+        - asset: fonts/ProductSans-Thin.ttf
+          weight: 100
+        - asset: fonts/ProductSans-Light.ttf
+          weight: 300
+        - asset: fonts/ProductSans-Regular.ttf
+          weight: 500
+        - asset: fonts/ProductSans-Medium.ttf
+          weight: 600
+        - asset: fonts/ProductSans-Bold.ttf
+          weight: 700
+        - asset: fonts/ProductSans-Black.ttf
+          weight: 800
