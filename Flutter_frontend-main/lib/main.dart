@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 fontFamily: 'Product')),
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple)
-            .copyWith(background: Colors.black),
+            .copyWith(surface: Colors.black),
       ),
     );
   }
